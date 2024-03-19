@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@font-face {
+  font-family: spacegrotesk;
+  src: url(../font/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(../font/InterTight-Regular.ttf);
+}
+html {
+  font-family: inter;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: spacegrotesk;
+}

@@ -79,14 +79,14 @@ h3 {
 .pic-1 {
   width: 400px;
   height: 450px;
-  background-image: url(https://picsum.photos/450);
+  background-image: url(../img/business-developer-la-nhan-vien-phat-trien-kinh-doanh.webp);
   background-size: cover;
 }
 .pic-2 {
   position: absolute;
   width: 250px;
   height: 420px;
-  background-image: url(https://picsum.photos/250);
+  background-image: url(../img/business-developer-la-nhan-vien-phat-trien-kinh-doanh.webp);
   background-size: cover;
   top: 25%;
   left: 0;
@@ -104,12 +104,11 @@ h3 {
 .overlay span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url(https://picsum.photos/250);
+  background-image: url(../img/business-developer-la-nhan-vien-phat-trien-kinh-doanh.webp);
   position: absolute;
   bottom: 30px;
   right: 15px;
   font-weight: 700;
-  background-size: cover;
 }
 .overlay h2 {
   font-size: 5rem;

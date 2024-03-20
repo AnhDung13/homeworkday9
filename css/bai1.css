@@ -1,6 +1,6 @@
 .content-wrapper {
-  margin: 0px 50px 0px;
-  height: 240px;
+  margin: 0px 200px;
+  height: 200px;
   position: relative;
   display: flex;
   width: 567px;
@@ -13,7 +13,10 @@
   transition: transform 0.5s ease-in-out;
 }
 .content p {
-  font-size: 0.9em;
+  font-size: 0.8em;
+}
+h3 {
+  padding-top: 5px;
 }
 .content a {
   display: inline-block;
@@ -41,7 +44,7 @@
 .content-wrapper::before {
   content: "";
   display: inline-block;
-  height: 175px;
+  height: 150px;
   border: 1px solid #ddd;
   position: absolute;
   top: 45px;
@@ -61,4 +64,54 @@
 .content-wrapper:hover a {
   background-color: #a26f5a;
   color: white;
+}
+.container > :nth-child(4)::before {
+  display: none;
+}
+.container {
+  float: left;
+}
+.background-picture {
+  float: right;
+  padding: 20px 100px;
+  position: relative;
+}
+.pic-1 {
+  width: 400px;
+  height: 450px;
+  background-image: url(https://picsum.photos/450);
+  background-size: cover;
+}
+.pic-2 {
+  position: absolute;
+  width: 250px;
+  height: 420px;
+  background-image: url(https://picsum.photos/250);
+  background-size: cover;
+  top: 25%;
+  left: 0;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: darkblue;
+  width: 90%;
+  height: 90%;
+}
+.overlay h2,
+.overlay span {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://picsum.photos/250);
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  font-weight: 700;
+  background-size: cover;
+}
+.overlay h2 {
+  font-size: 5rem;
+  bottom: 40px;
 }
